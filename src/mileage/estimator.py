@@ -45,7 +45,6 @@ class MOTTest(Event):
 class VRMChange(Event):
     """An event representing the changing of a vehicle's VRM."""
 
-    date: date
     from_VRM: str
     to_VRM: str
 
